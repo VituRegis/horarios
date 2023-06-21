@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 47, 47);
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: rgb(27, 0, 37);
+    text-align: center;
+    width: 800px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: rgb(93, 1, 155);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    margin-top: 10px;
+
+    background-color: rgb(27, 0, 37);
+    color: rgb(93, 1, 155);
+    font-family: 'Courier New', Courier, monospace;
+
+    width:800px;
+    display:block;
+    border-radius: 15px;
+}
+
+table{padding: 10px;}
+
+thead{
+    justify-content: center;
+    align-items: center;
+}
+
+th{
+    width: 150px;
+}
+
+tbody{
+    background-color: rgb(7, 0, 8);
+    text-align: center;
+    border-radius: 10px;
+}
+
+td{
+    border-radius: 10px;
+}
